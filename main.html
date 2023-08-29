@@ -7,6 +7,37 @@
 </head>
 
 <body>
+	<h1>Signup Form Car</h1>
+	<form method="post">
+		<label for="name"> Name: </label>
+		<input type="text" id="name" name="name" placeholder="Name" required><br><br>
+		<label for="email">Email:</label>
+		<input type="email" id="email" value="email" placeholder="Email" required><br><br>
+		<label>Gender: </label><br>
+		<input type="radio" id="gender_m" name="gender" value="Male" required>
+		<label for="gender_m"> Male</label><br>
+		<input type="radio" id="gender_f" name="gender" value="Female" required>
+		<label for="gender_f">Female</label><br><br>
+		<label for="cars" >Car Brands</label><br>
+		<select name="cars" id="cars" >
+			<option value="maruti">Maruti</option>
+			<option value="Thar" >Thar</option>
+			<option value="BMW">BMW</option>
+		</select>
+		<br><br>
+
+	    <label for="age">Age</label><br>
+		<input type="number" name="age" id="age" placeholder="Age" required><br><br>
+		<label for="date">DOB</label><br>
+		<input type="date" id="dob" name="date" required><br><br>
+		<label for="phone">Phone Number</label><br>
+		<input type="tel" id="tel" name="phone" placeholder="xxx-xxx-xxxx"><br><br>
+		<label for="pass">Password</label><br>
+		<input type="password" id="password" name="pass" placeholder="Password" required><br><br>
+		<input type="checkbox" id="tos" name="agree" required>
+		<label for="agree">I agree to the TOS</label><br><br>
+		<input type="submit" value="Submit">	
+	</form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
